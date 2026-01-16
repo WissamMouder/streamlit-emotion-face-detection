@@ -1,0 +1,55 @@
+.stApp {
+    background: linear-gradient(135deg, #020024, #090979, #00d4ff);
+    color: #e6f1ff;
+}
+
+h1, h2, h3, h4 {
+    color: #e8f805;
+    text-shadow: 0 0 10px rgba(236, 253, 2, 0.6);
+}
+
+p, label, span {
+    color: #e6f1ff !important;
+}
+
+div[data-testid="column"] {
+    background-color: rgba(15, 23, 42, 0.75);
+    padding: 20px;
+    border-radius: 18px;
+    box-shadow: 0 0 25px rgba(56, 189, 248, 0.35);
+}
+
+button {
+    background: linear-gradient(90deg, #fc5c00, #38bdf8) !important;
+    color: white !important;
+    border-radius: 12px !important;
+    border: none !important;
+    padding: 0.6em 1.2em !important;
+    font-weight: bold !important;
+    box-shadow: 0 0 15px rgba(56, 189, 248, 0.7) !important;
+}
+
+button:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 25px rgba(56, 189, 248, 1);
+}
+
+section[data-testid="stFileUploader"] {
+    background-color: rgba(15, 23, 42, 0.85);
+    border-radius: 12px;
+    padding: 12px;
+    border: 1px solid #38bdf8;
+}
+
+img {
+    border-radius: 14px;
+    border: 2px solid #38bdf8;
+    box-shadow: 0 0 20px rgba(56, 189, 248, 0.6);
+}
+
+.prediction {
+    font-size: 20px;
+    font-weight: bold;
+    color: #38bdf8;
+    text-shadow: 0 0 10px rgba(56, 189, 248, 0.8);
+}
